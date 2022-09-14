@@ -49,4 +49,4 @@ stages:
               command: login
               containerRegistry: $(dockerRegistryServiceConnection)
           - script: |
-              docker run -d mbidzinskcontainer01.azurecr.io/net:latest
+              docker run  mbidzinskcontainer01.azurecr.io/net:latest
